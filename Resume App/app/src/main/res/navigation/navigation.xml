@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.resume.HomeFragment"
+        android:label="@string/FragmentHomeTitle"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/educationFragment"
+        android:name="com.example.resume.Education.EducationFragment"
+        android:label="@string/FragmentEducationTitle"
+        tools:layout="@layout/fragment_education">
+    </fragment>
+
+    <fragment
+        android:id="@+id/workexperienceFragment"
+        android:name="com.example.resume.WorkExperience.WorkexperienceFragment"
+        android:label="@string/FragmentWorkExperienceTitle"
+        tools:layout="@layout/fragment_workexperience"/>
+
+    <activity
+        android:id="@+id/aboutappFragment"
+        android:name="com.example.resume.aboutapp.AboutAppActivity"
+        android:label="@string/FragmentAboutappTitle"
+        tools:layout="@layout/activity_aboutapp"/>
+
+    <activity
+        android:id="@+id/otherprojectsActivity"
+        android:name="com.example.resume.otherprojects.OtherprojectsActivity"
+        android:label="@string/FragmentOtherprojectsTitle"
+        tools:layout="@layout/activity_otherprojects"/>
+
+    <activity
+        android:id="@+id/contactmeFragment"
+        android:name="com.example.resume.contactme.ContactMeActivity"
+        android:label="@string/FragmentContactmeTitle"
+        tools:layout="@layout/activity_contactme"/>
+
+    <activity
+        android:id="@+id/usefullinksFragment"
+        android:name="com.example.resume.usefullinks.UsefullinksActivity"
+        android:label="@string/FragmentUsefullinksTitle"
+        tools:layout="@layout/activity_usefullinks"/>
+</navigation>

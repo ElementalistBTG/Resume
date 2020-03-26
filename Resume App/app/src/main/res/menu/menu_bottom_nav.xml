@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/bottomBarHome" />
+    <item
+        android:id="@+id/educationFragment"
+        android:icon="@drawable/books"
+        android:title="@string/bottomBarEducationTitle" />
+    <item
+        android:id="@+id/workexperienceFragment"
+        android:icon="@drawable/work_office"
+        android:title="@string/bottomBarWorkTitle" />
+</menu>
+
+<!--    app:showAsAction="ifRoom"-->
+<!--    android:orderInCategory="2"-->

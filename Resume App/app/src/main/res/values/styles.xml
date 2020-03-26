@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowFullscreen">true</item>
+
+
+        <!--        colors-->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="android:text">@color/primaryTextColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorOnBackground">@color/backgroundColor</item>
+
+        <!--  Set Action bar style-->
+        <item name="android:actionBarStyle">@style/AppTheme.MyActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/AppTheme.MyActionBarTabText</item>
+        <item name="android:actionMenuTextColor">@color/secondaryTextColor</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/AppTheme.MyActionBar</item>
+        <item name="actionBarTabTextStyle">@style/AppTheme.MyActionBarTabText</item>
+        <item name="actionMenuTextColor">@color/secondaryTextColor</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="AppTheme.MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse" >
+        <item name="android:background">@color/primaryColor</item>
+        <item name="android:titleTextStyle">@style/AppTheme.MyActionBar.MyActionBarTitleText</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/primaryColor</item>
+        <item name="titleTextStyle">@style/AppTheme.MyActionBar.MyActionBarTitleText</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="AppTheme.MyActionBar.MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <!-- ActionBar tabs text -->
+    <style name="AppTheme.MyActionBarTabText" parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+
+    <!-- Nav drawer theme. -->
+    <style name="ThemeOverlay.AppCompat.navTheme">
+        <!-- Background color -->
+        <item name="android:background">@color/primaryColor</item>
+        <!-- The colors of tint are set on the activity_main -->
+    </style>
+
+
+</resources>

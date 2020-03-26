@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Resume</string>
+    <string name="otherprojectsTitle">Other Projects</string>
+    <string name="contactmeTitle">Contact me</string>
+    <string name="usefullinksTitle">Useful Links</string>
+    <string name="abouttheappTitle">About the app</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="groupCommunicateTitle">Communicate</string>
+    <string name="groupGeneralTitle">General</string>
+    <string name="bottomBarHome">Home</string>
+    <string name="bottomBarEducationTitle"> Education</string>
+    <string name="bottomBarWorkTitle">Work Experience</string>
+    <string name="FragmentHomeTitle">Home</string>
+    <string name="FragmentEducationTitle">Education</string>
+    <string name="FragmentWorkExperienceTitle">Work Experience</string>
+    <string name="FragmentAboutappTitle">About this app</string>
+    <string name="FragmentOtherprojectsTitle">Other projects</string>
+    <string name="FragmentContactmeTitle">Contact me</string>
+    <string name="FragmentUsefullinksTitle">Useful links</string>
+    <string name="intro_text"><u>Hello there!</u> \n My name is <b>Konstantinos Michelis</b>. \n If you are looking to hire a skilled Android developer you came to the right place. This simple app demonstrates some of the features i can implement with Android while showing my CV. Feel free to navigate and test this app with whatever way possible.</string>
+    <string name="contact_me_text_view_text">Feel free to contact me with one of these ways</string>
+    <string name="other_projects_title">Other projects that are unrelated to Android programming</string>
+    <string name="marquee_text">This app has been created using the best android jetpack practices.</string>
+</resources>
